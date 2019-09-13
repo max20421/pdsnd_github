@@ -18,9 +18,9 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!\n')
     while True:
         # get user input for city (chicago, new york city, washington)
-        city = input("Enter City Name:\nChicago\nNew York City \nor Washington\n").lower()
+        city = input("Please Enter City Name:\nChicago\nNew York City \nor Washington\n").lower()
         if city not in CITY_DATA.keys():
-            print('{} is not a valid city. Please enter Chicago, New York City or Washington'.format(city))
+            print('{} is not a valid city name. Please enter Chicago, New York City or Washington'.format(city))
             continue
         else:
             break
@@ -197,7 +197,7 @@ def display_raw_data(df):
     """Asks the user if the would like to see five rows of the bikeshare data."""
     # get user input to show data
     line_count = 0
-    show_data = input("Would you like to see five rows of raw data\n Enter Yes or No \n").lower()
+    show_data = input("Would you like to see five rows of raw data\n Please Enter Yes or No \n").lower()
     while True:
         if show_data == 'no':
             break
@@ -207,7 +207,7 @@ def display_raw_data(df):
             # add five the line_count variable to display the next five rows if the user wants 
             line_count += 5
          # ask the user if they would like to see five more rows   
-        show_data = input("Would you like to see five more rows of raw data\n Enter Yes or No \n").lower()        
+        show_data = input("Would you like to see five more rows of raw data\n Please Enter Yes or No \n").lower()        
     
 def main():
     while True:
