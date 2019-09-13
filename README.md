@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+File Created 9/12/2019
 
 ### Project Title
-Replace the Project Title
+BikeShare.py
 
 ### Description
-Describe what your project is about and what it does
+A small interacvtive program to explore a sample of the bike share data from Chicago, New York City and Washington DC
 
 ### Files used
-Include the files used
+chicago.csv, new_york_city.csv and washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+1. I used Stackoverflow https://stackoverflow.com to help code some of the Pandas filters. I did not save the specific URLs for each question.
+2. I used the Udacity Knowledge forum to also get help with code issues.
