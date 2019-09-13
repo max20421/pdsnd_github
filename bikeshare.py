@@ -197,7 +197,7 @@ def display_raw_data(df):
     """Asks the user if the would like to see five rows of the bikeshare data."""
     # get user input to show data
     line_count = 0
-    show_data = input("Would you like to see five rows of raw data\n Enter Yes or No \n").lower()
+    show_data = input("Would you like to see five rows of raw data\n Please Enter Yes or No \n").lower()
     while True:
         if show_data == 'no':
             break
@@ -207,7 +207,7 @@ def display_raw_data(df):
             # add five the line_count variable to display the next five rows if the user wants 
             line_count += 5
          # ask the user if they would like to see five more rows   
-        show_data = input("Would you like to see five more rows of raw data\n Enter Yes or No \n").lower()        
+        show_data = input("Would you like to see five more rows of raw data\n Please Enter Yes or No \n").lower()        
     
 def main():
     while True:
