@@ -1,0 +1,2 @@
+1. I used Stackoverflow https://stackoverflow.com to help code some of the Pandas filters. I did not save the specific URLs for each question.
+2. I used the Udacity Knowledge forum to also get help with code issues.
