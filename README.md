@@ -1,5 +1,5 @@
 ### Date created
-File Created 9/12/2019
+File Created on Thursday 9/12/2019
 
 ### Project Title
 BikeShare.py
